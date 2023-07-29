@@ -24,7 +24,7 @@ See the live docs-site [here](https://developer.arbitrum.io/) (or [here](./docs)
 
 The Nitro stack is built on several innovations. At its core is a new prover, which can do Arbitrum’s classic 
 interactive fraud proofs over WASM code. That means the L2 Arbitrum engine can be written and compiled using 
-standard languages and tools, replacing the custom-designed language and compiler used in previous Arbitrum
+standard languages and tools replacing the custom-designed language and compiler used in previous Arbitrum
 versions. In normal execution, 
 validators and nodes run the Nitro engine compiled to native code, switching to WASM if a fraud proof is needed. 
 We compile the core of Geth, the EVM engine that practically defines the Ethereum standard, right into Arbitrum. 
